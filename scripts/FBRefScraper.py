@@ -136,4 +136,4 @@ class FBrefScraper:
 # Example usage
 if __name__ == "__main__":
     scraper = FBrefScraper(["Premier League"], [2024])
-    scraper.scrapeTeams("data/combined_data.csv")
+    scraper.scrapeTeams("data/example_data.csv")
