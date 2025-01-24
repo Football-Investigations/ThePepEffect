@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 from copy import deepcopy
-from time import sleep
+from time import sleep, time
 
 # URLs of Top 5 European Leagues, the second string is concatenated with the season and
 # stat we are looking for
@@ -29,10 +29,28 @@ STATS = {
     "misc": ['cards_yellow', 'cards_red', 'cards_yellow_red', 'fouls', 'fouled', 'offsides', 'crosses', 'interceptions', 'tackles_won', 'pens_won', 'pens_conceded', 'own_goals', 'ball_recoveries', 'aerials_won', 'aerials_lost', 'aerials_won_pct']
 }
 
+class RateLimiter:
+    def __init__(self, max_requests, period):
+        self.max_requests = max_requests
+        self.period = period
+        self.requests = []
+    
+    def wait(self):
+        current_time = time()
+        self.requests = [req for req in self.requests if current_time - req < self.period]
+        if len(self.requests) >= self.max_requests:
+            sleep_time = self.period - (current_time - self.requests[0])
+            print(f"Rate limit reached. Sleeping for {sleep_time:.2f} seconds...")
+            sleep(sleep_time)
+        self.requests.append(time())
+
+rate_limiter = RateLimiter(max_requests=19, period=60)
+
 def categoryFrame(category, url):
     """Returns a dataframe of a given category"""
     def getTable(url):
         """Returns the table containing team stats"""
+        rate_limiter.wait()
         res = requests.get(url)
         print(f"Fetching URL: {url}")
         print(f"Response status code: {res.status_code}")
@@ -56,9 +74,9 @@ def categoryFrame(category, url):
             if row.find("th", {"scope": "row"}):
                 for f in features:
                     if f == 'team':
-                        cell = row.find("th", {"data-stat": "team"})
+                        cell = row.find("td", {"data-stat": "team"})
                         if cell:
-                            text = " ".join(cell.text.strip().encode().decode("utf-8").split(" "))
+                            text = " ".join(cell.text.strip().encode().decode("utf-8").split(" ")[1:])
                         else:
                             text = ''
                     else:
@@ -99,7 +117,6 @@ def getTeamData(url):
     dfMisc = categoryFrame("misc", url)
     df = pd.concat([dfStats, dfKeepers, dfKeepersAdv, dfShooting, dfPassing, dfPassingTypes, dfGCA, dfDefense, dfPossession, dfMisc], axis=1)
     df = df.loc[:, ~df.columns.duplicated()]
-    #df = pd.concat(df, getStanding(url), on="team")
     return df
 
 class FBrefScraper:
@@ -110,7 +127,6 @@ class FBrefScraper:
     def scrapeTeams(self, csvPath=None):
         """Returns a dataframe of all stats for teams in the leagues"""
         teamStats = pd.DataFrame()
-        count = 0
 
         for season in self.seasons:
             for league in self.leagues:
@@ -120,11 +136,6 @@ class FBrefScraper:
                 if 'Big5' not in url[0]:
                     url[0] = f"{url[0]}{season - 1}-{season}/"
                     url[1] = f"/{season - 1}-{season}-{url[1]}"
-                count += 10
-                if count >= 19:
-                    print("Sleeping for 60 seconds...")
-                    sleep(60)
-                    count = 0
                 dfSeason = getTeamData(url)
                 dfSeason["season"] = season
                 teamStats = teamStats._append(dfSeason, ignore_index=True)
@@ -135,5 +146,5 @@ class FBrefScraper:
 
 # Example usage
 if __name__ == "__main__":
-    scraper = FBrefScraper(["Premier League"], [2024])
-    scraper.scrapeTeams("data/example_data.csv")
+    scraper = FBrefScraper(["Premier League", "Bundesliga", "LaLiga","Serie A", "Ligue 1"], [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017])
+    scraper.scrapeTeams("data/top5Leagues.csv")
