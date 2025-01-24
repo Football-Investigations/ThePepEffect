@@ -39,12 +39,12 @@ class RateLimiter:
         current_time = time()
         self.requests = [req for req in self.requests if current_time - req < self.period]
         if len(self.requests) >= self.max_requests:
-            sleep_time = self.period - (current_time - self.requests[0])
-            print(f"Rate limit reached. Sleeping for {sleep_time:.2f} seconds...")
-            sleep(sleep_time)
+            print(f"Rate limit reached. Sleeping for {self.period:.2f} seconds...")
+            sleep(self.period)
         self.requests.append(time())
+        sleep(1)  # Sleep 1 second between each request
 
-rate_limiter = RateLimiter(max_requests=19, period=60)
+rate_limiter = RateLimiter(max_requests=14, period=60)
 
 def categoryFrame(category, url):
     """Returns a dataframe of a given category"""
