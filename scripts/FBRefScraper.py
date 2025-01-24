@@ -30,21 +30,22 @@ STATS = {
 }
 
 class RateLimiter:
-    def __init__(self, max_requests, period):
+    def __init__(self, max_requests, period, sleep_time):
         self.max_requests = max_requests
         self.period = period
+        self.sleep_time = sleep_time
         self.requests = []
     
     def wait(self):
         current_time = time()
         self.requests = [req for req in self.requests if current_time - req < self.period]
         if len(self.requests) >= self.max_requests:
-            print(f"Rate limit reached. Sleeping for {self.period:.2f} seconds...")
-            sleep(self.period)
+            print(f"Rate limit reached. Sleeping for {self.sleep_time:.2f} seconds...")
+            sleep(self.sleep_time)
         self.requests.append(time())
-        sleep(1)  # Sleep 1 second between each request
+        sleep(2)  # Sleep 1 second between each request
 
-rate_limiter = RateLimiter(max_requests=14, period=60)
+rate_limiter = RateLimiter(max_requests=14, period=60, sleep_time=90)
 
 def categoryFrame(category, url):
     """Returns a dataframe of a given category"""
@@ -74,9 +75,9 @@ def categoryFrame(category, url):
             if row.find("th", {"scope": "row"}):
                 for f in features:
                     if f == 'team':
-                        cell = row.find("td", {"data-stat": "team"})
+                        cell = row.find("th", {"data-stat": "team"})
                         if cell:
-                            text = " ".join(cell.text.strip().encode().decode("utf-8").split(" ")[1:])
+                            text = " ".join(cell.text.strip().encode().decode("utf-8").split(" "))
                         else:
                             text = ''
                     else:
@@ -138,6 +139,7 @@ class FBrefScraper:
                     url[1] = f"/{season - 1}-{season}-{url[1]}"
                 dfSeason = getTeamData(url)
                 dfSeason["season"] = season
+                dfSeason["league"] = league
                 teamStats = teamStats._append(dfSeason, ignore_index=True)
 
         if csvPath:
