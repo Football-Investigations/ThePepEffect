@@ -1,781 +1,161 @@
 team,Cluster,season
-Arsenal,0,2025
-Aston Villa,6,2025
-Bournemouth,4,2025
-Brentford,6,2025
-Brighton,0,2025
-Chelsea,0,2025
-Crystal Palace,4,2025
-Everton,4,2025
-Fulham,0,2025
-Ipswich Town,4,2025
-Leicester City,6,2025
-Liverpool,0,2025
-Manchester City,5,2025
-Manchester Utd,6,2025
-Newcastle Utd,6,2025
-Nott'ham Forest,4,2025
-Southampton,6,2025
-Tottenham,0,2025
-West Ham,4,2025
-Wolves,6,2025
-Augsburg,4,2025
-Bayern Munich,5,2025
-Bochum,2,2025
-Dortmund,0,2025
-Eint Frankfurt,6,2025
-Freiburg,4,2025
-Gladbach,6,2025
-Heidenheim,4,2025
-Hoffenheim,6,2025
-Holstein Kiel,4,2025
-Leverkusen,0,2025
-Mainz 05,4,2025
-RB Leipzig,6,2025
-St. Pauli,4,2025
-Stuttgart,0,2025
-Union Berlin,4,2025
-Werder Bremen,6,2025
-Wolfsburg,4,2025
-Alavés,2,2025
-Athletic Club,6,2025
-Atlético Madrid,0,2025
-Barcelona,0,2025
-Betis,6,2025
-Celta Vigo,0,2025
-Espanyol,4,2025
-Getafe,2,2025
-Girona,0,2025
-Las Palmas,6,2025
-Leganés,4,2025
-Mallorca,4,2025
-Osasuna,2,2025
-Rayo Vallecano,4,2025
-Real Madrid,0,2025
-Real Sociedad,6,2025
-Sevilla,6,2025
-Valencia,4,2025
-Valladolid,4,2025
-Villarreal,6,2025
-Atalanta,0,2025
-Bologna,6,2025
-Cagliari,4,2025
-Como,6,2025
-Empoli,4,2025
-Fiorentina,6,2025
-Genoa,4,2025
-Hellas Verona,4,2025
-Inter,0,2025
-Juventus,0,2025
-Lazio,0,2025
-Lecce,4,2025
-Milan,0,2025
-Monza,4,2025
-Napoli,0,2025
-Parma,4,2025
-Roma,0,2025
-Torino,4,2025
-Udinese,4,2025
-Venezia,4,2025
-Angers,4,2025
-Auxerre,4,2025
-Brest,4,2025
-Le Havre,4,2025
-Lens,6,2025
-Lille,0,2025
-Lyon,0,2025
-Marseille,0,2025
-Monaco,0,2025
-Montpellier,4,2025
-Nantes,4,2025
-Nice,6,2025
-Paris S-G,5,2025
-Reims,6,2025
-Rennes,6,2025
-Saint-Étienne,4,2025
-Strasbourg,6,2025
-Toulouse,4,2025
-Arsenal,0,2024
-Aston Villa,0,2024
-Bournemouth,4,2024
-Brentford,4,2024
-Brighton,0,2024
-Burnley,6,2024
-Chelsea,0,2024
-Crystal Palace,4,2024
-Everton,2,2024
-Fulham,6,2024
-Liverpool,0,2024
-Luton Town,4,2024
-Manchester City,5,2024
-Manchester Utd,6,2024
-Newcastle Utd,6,2024
-Nott'ham Forest,4,2024
-Sheffield Utd,4,2024
-Tottenham,0,2024
-West Ham,4,2024
-Wolves,6,2024
-Augsburg,4,2024
-Bayern Munich,5,2024
-Bochum,2,2024
-Darmstadt 98,4,2024
-Dortmund,0,2024
-Eint Frankfurt,6,2024
-Freiburg,4,2024
-Gladbach,6,2024
-Heidenheim,4,2024
-Hoffenheim,6,2024
-Köln,4,2024
-Leverkusen,5,2024
-Mainz 05,4,2024
-RB Leipzig,0,2024
-Stuttgart,0,2024
-Union Berlin,4,2024
-Werder Bremen,6,2024
-Wolfsburg,6,2024
-Alavés,2,2024
-Almería,4,2024
-Athletic Club,6,2024
-Atlético Madrid,6,2024
-Barcelona,5,2024
-Betis,6,2024
-Cádiz,2,2024
-Celta Vigo,6,2024
-Getafe,2,2024
-Girona,0,2024
-Granada,4,2024
-Las Palmas,6,2024
-Mallorca,2,2024
-Osasuna,2,2024
-Rayo Vallecano,4,2024
-Real Madrid,5,2024
-Real Sociedad,6,2024
-Sevilla,6,2024
-Valencia,4,2024
-Villarreal,6,2024
-Atalanta,6,2024
-Bologna,0,2024
-Cagliari,2,2024
-Empoli,4,2024
-Fiorentina,3,2024
-Frosinone,4,2024
-Genoa,4,2024
-Hellas Verona,2,2024
-Inter,0,2024
-Juventus,6,2024
-Lazio,6,2024
-Lecce,4,2024
-Milan,0,2024
-Monza,6,2024
-Napoli,0,2024
-Roma,6,2024
-Salernitana,4,2024
-Sassuolo,4,2024
-Torino,6,2024
-Udinese,4,2024
-Brest,3,2024
-Clermont Foot,6,2024
-Le Havre,6,2024
-Lens,0,2024
-Lille,0,2024
-Lorient,6,2024
-Lyon,0,2024
-Marseille,0,2024
-Metz,4,2024
-Monaco,0,2024
-Montpellier,6,2024
-Nantes,6,2024
-Nice,0,2024
-Paris S-G,5,2024
-Reims,6,2024
-Rennes,0,2024
-Strasbourg,6,2024
-Toulouse,6,2024
-Arsenal,0,2023
-Aston Villa,6,2023
-Bournemouth,4,2023
-Brentford,4,2023
-Brighton,0,2023
-Chelsea,0,2023
-Crystal Palace,6,2023
-Everton,4,2023
-Fulham,6,2023
-Leeds United,4,2023
-Leicester City,6,2023
-Liverpool,0,2023
-Manchester City,5,2023
-Manchester Utd,6,2023
-Newcastle Utd,6,2023
-Nott'ham Forest,4,2023
-Southampton,4,2023
-Tottenham,6,2023
-West Ham,4,2023
-Wolves,6,2023
-Augsburg,4,2023
-Bayern Munich,5,2023
-Bochum,2,2023
-Dortmund,0,2023
-Eint Frankfurt,6,2023
-Freiburg,1,2023
-Gladbach,6,2023
-Hertha BSC,4,2023
-Hoffenheim,4,2023
-Köln,6,2023
-Leverkusen,6,2023
-Mainz 05,2,2023
-RB Leipzig,0,2023
-Schalke 04,2,2023
-Stuttgart,6,2023
-Union Berlin,2,2023
-Werder Bremen,1,2023
-Wolfsburg,6,2023
-Almería,4,2023
-Athletic Club,3,2023
-Atlético Madrid,6,2023
-Barcelona,5,2023
-Betis,6,2023
-Cádiz,2,2023
-Celta Vigo,6,2023
-Elche,4,2023
-Espanyol,2,2023
-Getafe,2,2023
-Girona,6,2023
-Mallorca,2,2023
-Osasuna,1,2023
-Rayo Vallecano,1,2023
-Real Madrid,5,2023
-Real Sociedad,6,2023
-Sevilla,6,2023
-Valencia,6,2023
-Valladolid,4,2023
-Villarreal,0,2023
-Atalanta,6,2023
-Bologna,6,2023
-Cremonese,4,2023
-Empoli,4,2023
-Fiorentina,3,2023
-Hellas Verona,2,2023
-Inter,3,2023
-Juventus,6,2023
-Lazio,0,2023
-Lecce,4,2023
-Milan,3,2023
-Monza,6,2023
-Napoli,5,2023
-Roma,6,2023
-Salernitana,4,2023
-Sampdoria,4,2023
-Sassuolo,6,2023
-Spezia,4,2023
-Torino,6,2023
-Udinese,6,2023
-Ajaccio,2,2023
-Angers,6,2023
-Auxerre,1,2023
-Brest,1,2023
-Clermont Foot,6,2023
-Lens,0,2023
-Lille,0,2023
-Lorient,6,2023
-Lyon,0,2023
-Marseille,0,2023
-Monaco,3,2023
-Montpellier,1,2023
-Nantes,6,2023
-Nice,0,2023
-Paris S-G,5,2023
-Reims,6,2023
-Rennes,0,2023
-Strasbourg,6,2023
-Toulouse,6,2023
-Troyes,6,2023
-Arsenal,6,2022
-Aston Villa,6,2022
-Brentford,4,2022
-Brighton,6,2022
-Burnley,2,2022
-Chelsea,0,2022
-Crystal Palace,6,2022
-Everton,2,2022
-Leeds United,6,2022
-Leicester City,6,2022
-Liverpool,5,2022
-Manchester City,5,2022
-Manchester Utd,3,2022
-Newcastle Utd,2,2022
-Norwich City,4,2022
-Southampton,4,2022
-Tottenham,3,2022
-Watford,2,2022
-West Ham,1,2022
-Wolves,6,2022
-Arminia,2,2022
-Augsburg,2,2022
-Bayern Munich,5,2022
-Bochum,2,2022
-Dortmund,0,2022
-Eint Frankfurt,6,2022
-Freiburg,4,2022
-Gladbach,6,2022
-Greuther Fürth,4,2022
-Hertha BSC,4,2022
-Hoffenheim,6,2022
-Köln,1,2022
-Leverkusen,3,2022
-Mainz 05,4,2022
-RB Leipzig,3,2022
-Stuttgart,6,2022
-Union Berlin,4,2022
-Wolfsburg,1,2022
-Alavés,2,2022
-Athletic Club,1,2022
-Atlético Madrid,1,2022
-Barcelona,5,2022
-Betis,6,2022
-Cádiz,2,2022
-Celta Vigo,1,2022
-Elche,1,2022
-Espanyol,4,2022
-Getafe,2,2022
-Granada,2,2022
-Levante,4,2022
-Mallorca,2,2022
-Osasuna,2,2022
-Rayo Vallecano,1,2022
-Real Madrid,5,2022
-Real Sociedad,6,2022
-Sevilla,3,2022
-Valencia,2,2022
-Villarreal,3,2022
-Atalanta,3,2022
-Bologna,6,2022
-Cagliari,2,2022
-Empoli,6,2022
-Fiorentina,3,2022
-Genoa,2,2022
-Hellas Verona,1,2022
-Inter,3,2022
-Juventus,3,2022
-Lazio,3,2022
-Milan,3,2022
-Napoli,0,2022
-Roma,3,2022
-Salernitana,2,2022
-Sampdoria,4,2022
-Sassuolo,3,2022
-Spezia,4,2022
-Torino,1,2022
-Udinese,4,2022
-Venezia,4,2022
-Angers,6,2022
-Bordeaux,1,2022
-Brest,1,2022
-Clermont Foot,6,2022
-Lens,3,2022
-Lille,6,2022
-Lorient,4,2022
-Lyon,3,2022
-Marseille,0,2022
-Metz,1,2022
-Monaco,3,2022
-Montpellier,6,2022
-Nantes,1,2022
-Nice,3,2022
-Paris S-G,5,2022
-Reims,4,2022
-Rennes,3,2022
-Saint-Étienne,6,2022
-Strasbourg,3,2022
-Troyes,6,2022
-Arsenal,0,2021
-Aston Villa,1,2021
-Brighton,3,2021
-Burnley,2,2021
-Chelsea,0,2021
-Crystal Palace,2,2021
-Everton,1,2021
-Fulham,3,2021
-Leeds United,6,2021
-Leicester City,6,2021
-Liverpool,5,2021
-Manchester City,5,2021
+Bayern Munich,1,2018
+Schalke 04,5,2018
+Dortmund,3,2018
+Hoffenheim,5,2018
+Barcelona,4,2018
+Atlético Madrid,5,2018
+Real Madrid,4,2018
+Valencia,5,2018
+Paris S-G,4,2018
+Monaco,5,2018
+Lyon,0,2018
+Marseille,0,2018
+Manchester City,2,2018
+Manchester Utd,0,2018
+Tottenham,0,2018
+Liverpool,0,2018
+Juventus,0,2018
+Napoli,4,2018
+Roma,0,2018
+Inter,0,2018
+Bayern Munich,1,2019
+Dortmund,4,2019
+RB Leipzig,5,2019
+Leverkusen,0,2019
+Barcelona,4,2019
+Atlético Madrid,5,2019
+Real Madrid,4,2019
+Valencia,5,2019
+Paris S-G,4,2019
+Lille,5,2019
+Lyon,4,2019
+Saint-Étienne,5,2019
+Manchester City,2,2019
+Liverpool,4,2019
+Chelsea,4,2019
+Tottenham,0,2019
+Juventus,6,2019
+Napoli,4,2019
+Atalanta,0,2019
+Inter,6,2019
+Bayern Munich,1,2020
+Dortmund,4,2020
+RB Leipzig,0,2020
+Gladbach,0,2020
+Real Madrid,4,2020
+Barcelona,4,2020
+Atlético Madrid,5,2020
+Sevilla,0,2020
+Paris S-G,4,2020
+Marseille,0,2020
+Rennes,5,2020
+Lille,5,2020
+Liverpool,1,2020
+Manchester City,2,2020
+Chelsea,4,2020
+Manchester Utd,0,2020
+Juventus,4,2020
+Inter,6,2020
+Atalanta,0,2020
+Lazio,6,2020
+Bayern Munich,1,2021
+RB Leipzig,0,2021
+Dortmund,4,2021
+Wolfsburg,5,2021
+Atlético Madrid,5,2021
+Real Madrid,4,2021
+Barcelona,2,2021
+Sevilla,6,2021
+Lille,0,2021
+Paris S-G,4,2021
+Monaco,0,2021
+Lyon,0,2021
+Manchester City,2,2021
 Manchester Utd,0,2021
-Newcastle Utd,4,2021
-Sheffield Utd,2,2021
-Southampton,6,2021
-Tottenham,6,2021
-West Brom,2,2021
-West Ham,1,2021
-Wolves,3,2021
-Arminia,2,2021
-Augsburg,4,2021
-Bayern Munich,5,2021
-Dortmund,5,2021
-Eint Frankfurt,3,2021
-Freiburg,1,2021
-Gladbach,3,2021
-Hertha BSC,1,2021
-Hoffenheim,6,2021
-Köln,1,2021
-Leverkusen,3,2021
-Mainz 05,4,2021
-RB Leipzig,3,2021
-Schalke 04,4,2021
-Stuttgart,3,2021
-Union Berlin,4,2021
-Werder Bremen,1,2021
-Wolfsburg,1,2021
-Alavés,2,2021
-Athletic Club,1,2021
-Atlético Madrid,3,2021
-Barcelona,5,2021
-Betis,1,2021
-Cádiz,2,2021
-Celta Vigo,1,2021
-Eibar,2,2021
-Elche,1,2021
-Getafe,2,2021
-Granada,2,2021
-Huesca,1,2021
-Levante,6,2021
-Osasuna,2,2021
-Real Madrid,5,2021
-Real Sociedad,1,2021
-Sevilla,3,2021
-Valencia,1,2021
-Valladolid,2,2021
-Villarreal,3,2021
-Atalanta,3,2021
-Benevento,4,2021
-Bologna,6,2021
-Cagliari,1,2021
-Crotone,1,2021
-Fiorentina,1,2021
-Genoa,4,2021
-Hellas Verona,2,2021
-Inter,3,2021
-Juventus,3,2021
-Lazio,3,2021
-Milan,3,2021
-Napoli,3,2021
-Parma,1,2021
-Roma,3,2021
-Sampdoria,1,2021
-Sassuolo,0,2021
-Spezia,3,2021
-Torino,1,2021
-Udinese,1,2021
-Angers,1,2021
-Bordeaux,1,2021
-Brest,3,2021
-Dijon,1,2021
-Lens,1,2021
-Lille,3,2021
-Lorient,1,2021
-Lyon,3,2021
-Marseille,6,2021
-Metz,1,2021
-Monaco,3,2021
-Montpellier,1,2021
-Nantes,1,2021
-Nice,0,2021
-Nîmes,1,2021
-Paris S-G,5,2021
-Reims,6,2021
-Rennes,3,2021
-Saint-Étienne,1,2021
-Strasbourg,1,2021
-Arsenal,6,2020
-Aston Villa,1,2020
-Bournemouth,4,2020
-Brighton,3,2020
-Burnley,2,2020
-Chelsea,5,2020
-Crystal Palace,1,2020
-Everton,1,2020
-Leicester City,3,2020
-Liverpool,5,2020
-Manchester City,5,2020
-Manchester Utd,3,2020
-Newcastle Utd,2,2020
-Norwich City,6,2020
-Sheffield Utd,2,2020
-Southampton,1,2020
-Tottenham,6,2020
-Watford,2,2020
-West Ham,1,2020
-Wolves,1,2020
-Augsburg,4,2020
-Bayern Munich,5,2020
-Dortmund,5,2020
-Düsseldorf,1,2020
-Eint Frankfurt,1,2020
-Freiburg,1,2020
-Gladbach,3,2020
-Hertha BSC,1,2020
-Hoffenheim,6,2020
-Köln,1,2020
-Leverkusen,3,2020
-Mainz 05,1,2020
-Paderborn 07,1,2020
-RB Leipzig,3,2020
-Schalke 04,1,2020
-Union Berlin,2,2020
-Werder Bremen,1,2020
-Wolfsburg,1,2020
-Alavés,2,2020
-Athletic Club,2,2020
-Atlético Madrid,1,2020
-Barcelona,5,2020
-Betis,3,2020
-Celta Vigo,1,2020
-Eibar,2,2020
-Espanyol,1,2020
-Getafe,2,2020
-Granada,2,2020
-Leganés,2,2020
-Levante,1,2020
-Mallorca,1,2020
-Osasuna,2,2020
-Real Madrid,5,2020
-Real Sociedad,3,2020
-Sevilla,3,2020
-Valencia,1,2020
-Valladolid,2,2020
-Villarreal,3,2020
-Atalanta,3,2020
-Bologna,3,2020
-Brescia,4,2020
-Cagliari,1,2020
-Fiorentina,1,2020
-Genoa,6,2020
-Hellas Verona,1,2020
-Inter,3,2020
-Juventus,3,2020
-Lazio,3,2020
-Lecce,1,2020
-Milan,3,2020
-Napoli,5,2020
-Parma,1,2020
-Roma,3,2020
-Sampdoria,1,2020
-Sassuolo,0,2020
-SPAL,1,2020
-Torino,1,2020
-Udinese,1,2020
-Amiens,1,2020
-Angers,1,2020
-Bordeaux,1,2020
-Brest,1,2020
-Dijon,1,2020
-Lille,1,2020
-Lyon,3,2020
-Marseille,3,2020
-Metz,1,2020
-Monaco,3,2020
-Montpellier,1,2020
-Nantes,1,2020
-Nice,6,2020
-Nîmes,2,2020
-Paris S-G,5,2020
-Reims,1,2020
-Rennes,1,2020
-Saint-Étienne,1,2020
-Strasbourg,1,2020
-Toulouse,1,2020
-Arsenal,3,2019
-Bournemouth,4,2019
-Brighton,2,2019
-Burnley,2,2019
-Cardiff City,2,2019
-Chelsea,5,2019
-Crystal Palace,1,2019
-Everton,1,2019
-Fulham,1,2019
-Huddersfield,2,2019
-Leicester City,1,2019
-Liverpool,5,2019
-Manchester City,5,2019
-Manchester Utd,3,2019
-Newcastle Utd,2,2019
-Southampton,2,2019
-Tottenham,3,2019
-Watford,2,2019
-West Ham,1,2019
-Wolves,1,2019
-Augsburg,1,2019
-Bayern Munich,5,2019
-Dortmund,5,2019
-Düsseldorf,1,2019
-Eint Frankfurt,2,2019
-Freiburg,1,2019
-Gladbach,3,2019
-Hannover 96,1,2019
-Hertha BSC,1,2019
-Hoffenheim,3,2019
-Leverkusen,3,2019
-Mainz 05,1,2019
-Nürnberg,4,2019
-RB Leipzig,1,2019
-Schalke 04,1,2019
-Stuttgart,2,2019
-Werder Bremen,3,2019
-Wolfsburg,1,2019
-Alavés,2,2019
-Athletic Club,2,2019
-Atlético Madrid,1,2019
-Barcelona,5,2019
-Betis,3,2019
-Celta Vigo,1,2019
-Eibar,2,2019
-Espanyol,1,2019
-Getafe,2,2019
-Girona,1,2019
-Huesca,2,2019
-Leganés,2,2019
-Levante,1,2019
-Rayo Vallecano,1,2019
-Real Madrid,5,2019
-Real Sociedad,1,2019
-Sevilla,1,2019
-Valencia,1,2019
-Valladolid,1,2019
-Villarreal,1,2019
-Atalanta,3,2019
-Bologna,1,2019
-Cagliari,1,2019
-Chievo,2,2019
-Empoli,6,2019
-Fiorentina,1,2019
-Frosinone,4,2019
-Genoa,2,2019
-Inter,3,2019
-Juventus,3,2019
-Lazio,3,2019
-Milan,3,2019
-Napoli,5,2019
-Parma,2,2019
-Roma,3,2019
-Sampdoria,6,2019
-Sassuolo,3,2019
-SPAL,1,2019
-Torino,1,2019
-Udinese,1,2019
-Amiens,2,2019
-Angers,1,2019
-Bordeaux,1,2019
-Caen,2,2019
-Dijon,1,2019
-Guingamp,2,2019
-Lille,1,2019
-Lyon,5,2019
-Marseille,3,2019
-Monaco,1,2019
-Montpellier,1,2019
-Nantes,1,2019
-Nice,3,2019
-Nîmes,1,2019
-Paris S-G,5,2019
-Reims,1,2019
-Rennes,1,2019
-Saint-Étienne,1,2019
-Strasbourg,1,2019
-Toulouse,1,2019
-Arsenal,5,2018
-Bournemouth,1,2018
-Brighton,2,2018
-Burnley,2,2018
-Chelsea,3,2018
-Crystal Palace,1,2018
-Everton,2,2018
-Huddersfield,2,2018
-Leicester City,2,2018
-Liverpool,5,2018
-Manchester City,5,2018
-Manchester Utd,3,2018
-Newcastle Utd,2,2018
-Southampton,1,2018
-Stoke City,2,2018
-Swansea City,1,2018
-Tottenham,3,2018
-Watford,2,2018
-West Brom,2,2018
-West Ham,2,2018
-Augsburg,2,2018
-Bayern Munich,5,2018
-Dortmund,0,2018
-Eint Frankfurt,2,2018
-Freiburg,2,2018
-Gladbach,6,2018
-Hamburger SV,2,2018
-Hannover 96,2,2018
-Hertha BSC,2,2018
-Hoffenheim,6,2018
-Köln,2,2018
-Leverkusen,6,2018
-Mainz 05,2,2018
-RB Leipzig,6,2018
-Schalke 04,1,2018
-Stuttgart,2,2018
-Werder Bremen,2,2018
-Wolfsburg,1,2018
-Alavés,2,2018
-Athletic Club,1,2018
-Atlético Madrid,1,2018
-Barcelona,5,2018
-Betis,3,2018
-Celta Vigo,3,2018
-Eibar,2,2018
-Espanyol,1,2018
-Getafe,2,2018
-Girona,2,2018
-La Coruña,1,2018
-Las Palmas,1,2018
-Leganés,2,2018
-Levante,2,2018
-Málaga,2,2018
-Real Madrid,5,2018
-Real Sociedad,3,2018
-Sevilla,3,2018
-Valencia,1,2018
-Villarreal,1,2018
-Atalanta,3,2018
-Benevento,1,2018
-Bologna,1,2018
-Cagliari,2,2018
-Chievo,1,2018
-Crotone,2,2018
-Fiorentina,1,2018
-Genoa,1,2018
-Hellas Verona,1,2018
-Inter,3,2018
-Juventus,3,2018
-Lazio,3,2018
-Milan,3,2018
-Napoli,5,2018
-Roma,3,2018
-Sampdoria,1,2018
-Sassuolo,1,2018
-SPAL,1,2018
-Torino,1,2018
-Udinese,1,2018
-Amiens,2,2018
-Angers,1,2018
-Bordeaux,1,2018
-Caen,2,2018
-Dijon,1,2018
-Guingamp,1,2018
-Lille,3,2018
-Lyon,3,2018
-Marseille,3,2018
-Metz,1,2018
-Monaco,1,2018
-Montpellier,1,2018
-Nantes,2,2018
-Nice,3,2018
-Paris S-G,5,2018
-Rennes,1,2018
-Saint-Étienne,1,2018
-Strasbourg,1,2018
-Toulouse,2,2018
-Troyes,1,2018
+Liverpool,1,2021
+Chelsea,4,2021
+Inter,6,2021
+Milan,0,2021
+Atalanta,0,2021
+Juventus,4,2021
+Bayern Munich,1,2022
+Dortmund,3,2022
+Leverkusen,0,2022
+RB Leipzig,0,2022
+Real Madrid,4,2022
+Barcelona,4,2022
+Atlético Madrid,5,2022
+Sevilla,6,2022
+Paris S-G,4,2022
+Marseille,4,2022
+Monaco,0,2022
+Nice,0,2022
+Manchester City,2,2022
+Liverpool,1,2022
+Chelsea,4,2022
+Tottenham,3,2022
+Milan,0,2022
+Inter,6,2022
+Napoli,3,2022
+Juventus,6,2022
+Bayern Munich,1,2023
+Dortmund,3,2023
+RB Leipzig,3,2023
+Union Berlin,5,2023
+Barcelona,4,2023
+Real Madrid,4,2023
+Atlético Madrid,5,2023
+Real Sociedad,5,2023
+Paris S-G,2,2023
+Lens,0,2023
+Marseille,0,2023
+Rennes,0,2023
+Manchester City,2,2023
+Arsenal,3,2023
+Manchester Utd,3,2023
+Newcastle Utd,5,2023
+Napoli,4,2023
+Lazio,3,2023
+Inter,6,2023
+Juventus,6,2023
+Leverkusen,2,2024
+Stuttgart,3,2024
+Bayern Munich,2,2024
+RB Leipzig,3,2024
+Real Madrid,4,2024
+Barcelona,4,2024
+Girona,3,2024
+Atlético Madrid,3,2024
+Paris S-G,2,2024
+Monaco,0,2024
+Brest,0,2024
+Lille,3,2024
+Manchester City,2,2024
+Arsenal,3,2024
+Liverpool,4,2024
+Aston Villa,3,2024
+Inter,6,2024
+Milan,3,2024
+Juventus,6,2024
+Atalanta,3,2024
+Bayern Munich,2,2025
+Leverkusen,3,2025
+Eint Frankfurt,3,2025
+Stuttgart,3,2025
+Real Madrid,4,2025
+Atlético Madrid,3,2025
+Athletic Club,5,2025
+Barcelona,1,2025
+Paris S-G,2,2025
+Marseille,3,2025
+Lille,3,2025
+Monaco,3,2025
+Liverpool,3,2025
+Arsenal,3,2025
+Nott'ham Forest,5,2025
+Chelsea,3,2025
+Napoli,3,2025
+Inter,6,2025
+Atalanta,3,2025
+Lazio,3,2025
