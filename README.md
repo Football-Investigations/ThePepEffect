@@ -1,27 +1,24 @@
 # The Pep Guardiola Effect
----
 
 ## Abstract
----
 
 ## Project Structure
----
+```
 ThePepEffect/
 │-- data/                   # Raw and processed datasets
 │-- scripts/
 │   │-- FBRefScraper.py     # Script for scraping football data
 │-- analysis/
 │   │-- ThePepEffect.ipynb   # Jupyter Notebook for analysis
+```
 
 ## Prerequisites
----
 Make sure you have the following installed:
 
 Python 3.11+
 [uv](https://docs.astral.sh/uv/) for dependency management
 
 ## Installation
----
 ### 1. Clone the Repo
 ```bash
 git clone https://github.com/Football-Investigations/ThePepEffect.git
