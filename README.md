@@ -1,6 +1,7 @@
 # The Pep Guardiola Effect
 
 ## Abstract
+This study examines how elite football has evolved since Pep Guardiola's arrival at Manchester City in 2016. Using data from the top five European leagues (2016/17–2023/24), we applied TSNE clustering to PCA data `(fix this)` to identify key style-related statistics and compare Manchester City's tactical evolution to other top teams. We investigate whether successful teams increasingly mirror Guardiola’s approach, analyzing the sustainability of dominant styles. Our findings aim to reveal whether modern football undergoes cyclical stylistic shifts and to what extent managers, players, and play styles shape the game’s evolution.
 
 ## Project Structure
 ```
