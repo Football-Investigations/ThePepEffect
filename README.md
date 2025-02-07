@@ -16,8 +16,8 @@ ThePepEffect/
 ## Prerequisites
 Make sure you have the following installed:
 
-Python 3.11+
-[uv](https://docs.astral.sh/uv/) for dependency management
+- Python 3.11+
+- [uv](https://docs.astral.sh/uv/) for dependency management
 
 ## Installation
 ### 1. Clone the Repo
