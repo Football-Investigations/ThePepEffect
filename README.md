@@ -7,11 +7,13 @@ This study examines how elite football has evolved since Pep Guardiola's arrival
 ## Project Structure
 ```
 ThePepEffect/
-│-- data/                   # Raw and processed datasets
-│-- scripts/
-│   │-- FBRefScraper.py     # Script for scraping football data
 │-- analysis/
 │   │-- ThePepEffect.ipynb   # Jupyter Notebook for analysis
+│-- data/                   # Raw and processed datasets
+│-- plots/                   # Rendered graphs
+│-- scripts/
+│   │-- FBRefScraper.py     # Script for scraping football data
+
 ```
 
 ## Prerequisites
