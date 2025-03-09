@@ -13,10 +13,10 @@ By identifying trends in dominant play styles, managerial influence, and the sus
 ThePepEffect/
 │-- analysis/
 │   │-- ThePepEffect.ipynb   # Jupyter Notebook for analysis
-│-- data/                   # Raw and processed datasets
+│-- data/                    # Raw and processed datasets
 │-- plots/                   # Rendered graphs
 │-- scripts/
-│   │-- FBRefScraper.py     # Script for scraping football data
+│   │-- FBRefScraper.py      # Script for scraping football data
 
 ```
 
